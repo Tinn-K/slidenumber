@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct slidenumberApp: App {
     var body: some Scene {
+        @StateObject var game = slidenumberViewModel()
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: game)
         }
     }
 }
