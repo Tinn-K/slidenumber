@@ -16,6 +16,9 @@ struct ContentView: View {
                 .foregroundStyle(.green)
                 .bold()
                 .font(.largeTitle)
+                .onTapGesture {
+                    viewModel.restart()
+                }
             cards
                 .animation(.default, value: viewModel.cards)
             Spacer()
