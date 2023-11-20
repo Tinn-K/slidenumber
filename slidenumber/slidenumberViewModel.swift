@@ -13,10 +13,10 @@ class slidenumberViewModel: ObservableObject {
     @Published private var model: slidenumberGameModel<String> = createModel()
     
     static func createModel() -> slidenumberGameModel<String> {
-//        let useNumbers = numbers.shuffled()
-        let useNumbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "16", "13", "14", "15", "12"]
+        let useNumbers = numbers.shuffled()
+//        let useNumbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "16", "13", "14", "15", "12"]
         var model = slidenumberGameModel<String>(length: numbers.count, contentFactory: {(index) in useNumbers[index]})
-//        model.shuffle()        
+        model.shuffle()        
         
         return model
     }
