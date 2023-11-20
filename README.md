@@ -10,5 +10,4 @@ Slide Number Puzzle
 
 Demo
 ---
-https://github.com/Tinn-K/slidenumber/assets/99307248/75c91b8b-83b2-469a-9f34-6d72f155af40
-
+https://github.com/Tinn-K/slidenumber/assets/99307248/5c560279-db21-44a2-ac98-d48adf0e4014
